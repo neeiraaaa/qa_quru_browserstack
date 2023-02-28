@@ -5,6 +5,7 @@ from selene import support
 from appium import webdriver
 
 import config
+from mobile_tests_lesson_13 import attach
 
 
 @pytest.fixture(scope='function', autouse=True)
@@ -38,3 +39,5 @@ def driver_management():
     '''
 
     # attach.video(session_id);
+
+    attach.add_video(browser)
