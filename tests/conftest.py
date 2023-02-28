@@ -32,6 +32,8 @@ def driver_management():
     # attach.screenshot_as("Last screenshot");
     # attach.page_source();
 
+    attach.add_video(browser)
+
     browser.quit()
     '''
     # was:
@@ -40,4 +42,4 @@ def driver_management():
 
     # attach.video(session_id);
 
-    attach.add_video(browser)
+
